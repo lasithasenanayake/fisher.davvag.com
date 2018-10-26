@@ -1,0 +1,30 @@
+{
+    "apps":{
+        "dock":{
+            "version":"latest"
+        },
+        "productapp":{
+            "version":"latest"
+        },
+        "profileapp":{
+            "version":"latest"
+        },
+        "uom":{
+            "version":"latest"
+        },
+        "productcategories":{
+            "version":"latest"
+        },
+        "dock-settings":{
+            "version":"latest"
+        }
+    },
+    "webdock":{
+        "events":{
+            "onStartup":{
+                "admin" : "dock",
+                "default" : "dock"
+            }
+        }
+    }
+}
